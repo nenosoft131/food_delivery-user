@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cscodetech.deliveryking">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Csfoodapp.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:usesCleartextTraffic">
+        <activity
+            android:name=".activity.FaqActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ChanegPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ReferlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.HelpDetailsActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".activity.AddMoneyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MywalletActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.SearchProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.SearchVendorItemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.SearchRestorentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.RatesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.OrderStoreActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AddressListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.OrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.OrderTrackerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.RestorentOrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AccountActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.PaypalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.PaystackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.RazerpayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.StripPaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.FlutterwaveActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.SenangpayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.PaytmActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CartActivityVendor"
+            android:exported="true" />
+        <activity
+            android:name=".activity.RestaurantActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CoupunActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.VerifyPhoneActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.VendorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CuoriarPayNowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CuoriaritemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CourierActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ForgotActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CreateAccountActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CuoriarOrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.CourierOrderDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/api_key" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

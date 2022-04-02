@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Basket India User App</string>
+    <string name="api_key">**********************************</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="delivery_to">DELIVERY TO</string>
+    <string name="search_for_item">Search for item...</string>
+
+    <string name="word_you_like">What word you like to order ?</string>
+    <string name="popular">Top picks for you</string>
+    <string name="myaacount">My Account</string>
+    <string name="recent_order">Recent Order</string>
+    <string name="recentorder">Recent orders</string>
+    <string name="manage_address">Saved Addresses</string>
+    <string name="invite_friend_amp_earn"><![CDATA[Invite Friend & Earn]]></string>
+    <string name="faq_s">FAQ\'s</string>
+    <string name="help_amp_support"><![CDATA[Help & Support]]></string>
+    <string name="logout">Logout</string>
+    <string name="wallet">Wallet</string>
+    <string name="orders">Orders</string>
+    <string name="profile">Profile</string>
+
+</resources>
