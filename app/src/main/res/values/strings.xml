@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Basket India User App</string>
-    <string name="api_key">**********************************</string>
+    <string name="api_key">**</string>
     <string name="home">Home</string>
     <string name="search">Search</string>
 
@@ -10,6 +10,8 @@
 
     <string name="word_you_like">What word you like to order ?</string>
     <string name="popular">Top picks for you</string>
+    <string name="status">ALive</string>
+    <string name="Active">Activated</string>
     <string name="myaacount">My Account</string>
     <string name="recent_order">Recent Order</string>
     <string name="recentorder">Recent orders</string>
