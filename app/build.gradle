@@ -14,7 +14,7 @@ android {
         applicationId "com.basketindia.user"
         minSdk 21
         versionCode 1
-        versionName "1.0"
+        versionName "1.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [
                 onesignal_app_id               : '21b15deb-20f6-4915-9dee-14c881eede36',
